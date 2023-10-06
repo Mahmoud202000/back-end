@@ -1,0 +1,190 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "cs",
+      "description": "computer science"
+    },
+    {
+      "id": 2,
+      "name": "is",
+      "description": "information system"
+    },
+    {
+      "id": 3,
+      "name": "ai",
+      "description": "artificial intelleigence"
+    },
+    {
+      "name": "cy",
+      "description": "cyber security",
+      "id": 4
+    },
+    {
+      "name": "bio",
+      "description": "bioinformatic",
+      "id": 5
+    }
+  ],
+  "students": [
+    {
+      "id": 102,
+      "fullName": "Hussein Othman",
+      "year": "Frist",
+      "degree": 85,
+      "departmentId": 3,
+      "imageUrl": "https://placehold.co/100x30/green/white"
+    },
+    {
+      "id": 103,
+      "fullName": "Wael Mahmoud",
+      "year": "Third",
+      "degree": 70,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/red/white"
+    },
+    {
+      "id": 104,
+      "fullName": "Bahaa Mostafa Ali",
+      "year": "Fisrt",
+      "degree": 90,
+      "departmentId": 3,
+      "imageUrl": "https://placehold.co/100x30/brown/white"
+    },
+    {
+      "id": 105,
+      "fullName": "Hassan Mohammed",
+      "year": "Second",
+      "degree": 88,
+      "departmentId": 2,
+      "imageUrl": "https://placehold.co/100x30/black/white"
+    },
+    {
+      "id": 106,
+      "fullName": "Ayman Ali",
+      "year": "Fourth",
+      "degree": 76,
+      "departmentId": 2,
+      "imageUrl": "https://placehold.co/100x30/darkgray/white"
+    },
+    {
+      "id": 107,
+      "fullName": "Hossam Mahmoud",
+      "year": "Frist",
+      "degree": 81,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/orange/white"
+    },
+    {
+      "id": 108,
+      "fullName": "Ayman Ashraf",
+      "year": "Third",
+      "degree": 74,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/purple/white"
+    }
+  ],
+  "categories": [
+    {
+      "id": 201,
+      "name": "SW",
+      "description": "Software"
+    },
+    {
+      "id": 202,
+      "name": "HW",
+      "description": "Hardware"
+    },
+    {
+      "id": 203,
+      "name": "Consultancy",
+      "description": "Consultancy Service"
+    },
+    {
+      "id": 204,
+      "name": "Training",
+      "description": "Training Service"
+    }
+  ],
+  "products": [
+    {
+      "id": 301,
+      "name": "SIS",
+      "description": "Student Information System",
+      "price": 235000,
+      "categoryId": 201,
+      "imageUrl": "https://placehold.co/100x30/blue/white"
+    },
+    {
+      "id": 302,
+      "name": "ERP",
+      "description": "Enterprise Resource Planning",
+      "price": 285000,
+      "categoryId": 201,
+      "imageUrl": "https://placehold.co/100x30/brown/white"
+    },
+    {
+      "id": 303,
+      "name": "AMS-2",
+      "description": "Assets Management System V2.0",
+      "price": "245000",
+      "imageUrl": "https://placehold.co/200x70/brown/white",
+      "categoryId": "201"
+    },
+    {
+      "id": 304,
+      "name": "HIS",
+      "description": "Hospital Information System",
+      "price": "235000",
+      "imageUrl": "https://placehold.co/100x50/green/white",
+      "categoryId": "201"
+    },
+    {
+      "id": 305,
+      "name": "HRMS",
+      "description": "Human Resources Management System",
+      "price": "165000",
+      "imageUrl": "https://placehold.co/100x30/yellow/black",
+      "categoryId": "201"
+    },
+    {
+      "id": 306,
+      "name": "ABC",
+      "description": "DEF",
+      "price": "15000",
+      "imageUrl": "https://placehold.co/115x30",
+      "categoryId": "202"
+    },
+    {
+      "id": 307,
+      "name": "GHI",
+      "description": "JKL",
+      "price": "17500",
+      "imageUrl": "https://placehold.co/175x30",
+      "categoryId": "202"
+    }
+  ],
+  "customers": [
+    {
+      "id": 701,
+      "name": "United for Construction",
+      "email": "info@UnitedConstruction.com",
+      "balance": 75000,
+      "imageUrl": "https://placehold.co/110x30/blue/white"
+    },
+    {
+      "id": 702,
+      "name": "Alshams Hospitals",
+      "email": "info@AlshamsHospitals.com",
+      "balance": -17500,
+      "imageUrl": "https://placehold.co/120x30/brown/white"
+    },
+    {
+      "id": 703,
+      "name": "Future University",
+      "email": "info@FutureUniversity.com",
+      "balance": -15000,
+      "imageUrl": "https://placehold.co/130x30/yellow/black"
+    }
+  ]
+}
